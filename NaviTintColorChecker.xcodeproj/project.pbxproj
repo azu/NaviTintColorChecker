@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B5C1A1F00A3B759AF968F0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C8E2956F5E0B5147020C /* MainStoryboard.storyboard */; };
+		17B5C63D8CD8DA61397B8DFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CE561594642C86A8FA07 /* main.m */; };
+		17B5CAF6213DAC0D276DCDC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CC170343C033ACEE027F /* UIKit.framework */; };
+		17B5CB6CE98AFF1BAD37495C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C08442FFDE714DA37A52 /* ViewController.m */; };
+		17B5CC286472DD468E257B56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CEB3564226B74698374D /* Foundation.framework */; };
+		17B5CD34C94C4F7811BDA93D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C7B0A4D5183AD591698C /* InfoPlist.strings */; };
+		17B5CD56FCD8C9F2C4380277 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C705DE7EE7A3C125842D /* CoreGraphics.framework */; };
+		17B5CF0256D98DE1A1AD5108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C1665EB8605D3D99A048 /* AppDelegate.m */; };
+		17B5CF71EA8E32F17D18F133 /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C191A89287E9AC955D92 /* UIColor+hex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17B5C08442FFDE714DA37A52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17B5C122752B8E1C157DB171 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		17B5C1665EB8605D3D99A048 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17B5C191A89287E9AC955D92 /* UIColor+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hex.m"; sourceTree = "<group>"; };
+		17B5C2D3864EA8DAC56F9B95 /* UIColor+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hex.h"; sourceTree = "<group>"; };
+		17B5C705DE7EE7A3C125842D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17B5C71B58D76F3B96828E71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17B5C7C240F205F94EBDA57B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5CB23B7178C7238941188 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17B5CB8967DC40B69402E960 /* NaviTintColorChecker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NaviTintColorChecker-Prefix.pch"; sourceTree = "<group>"; };
+		17B5CC170343C033ACEE027F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17B5CDF7296AEBF2CDFB2FE7 /* NaviTintColorChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviTintColorChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5CE561594642C86A8FA07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17B5CEB3564226B74698374D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17B5CEFA58A1CA186E5A0B9C /* NaviTintColorChecker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "NaviTintColorChecker-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B5CA6DACFECE590363CD60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CAF6213DAC0D276DCDC1 /* UIKit.framework in Frameworks */,
+				17B5CC286472DD468E257B56 /* Foundation.framework in Frameworks */,
+				17B5CD56FCD8C9F2C4380277 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5C04E983AD785FC0B7CC0 = {
+			isa = PBXGroup;
+			children = (
+				17B5C32C2FE36CC1A1D546C4 /* Products */,
+				17B5C1B3C4C0647A1433C92C /* Frameworks */,
+				17B5C5C01EA015F17455C0C6 /* NaviTintColorChecker */,
+			);
+			sourceTree = "<group>";
+		};
+		17B5C175FA031AC1009C05F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CB8967DC40B69402E960 /* NaviTintColorChecker-Prefix.pch */,
+				17B5CE561594642C86A8FA07 /* main.m */,
+				17B5C7B0A4D5183AD591698C /* InfoPlist.strings */,
+				17B5CEFA58A1CA186E5A0B9C /* NaviTintColorChecker-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C1B3C4C0647A1433C92C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C705DE7EE7A3C125842D /* CoreGraphics.framework */,
+				17B5CEB3564226B74698374D /* Foundation.framework */,
+				17B5CC170343C033ACEE027F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B5C32C2FE36CC1A1D546C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CDF7296AEBF2CDFB2FE7 /* NaviTintColorChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B5C5C01EA015F17455C0C6 /* NaviTintColorChecker */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C2D3864EA8DAC56F9B95 /* UIColor+hex.h */,
+				17B5C191A89287E9AC955D92 /* UIColor+hex.m */,
+				17B5C08442FFDE714DA37A52 /* ViewController.m */,
+				17B5CB23B7178C7238941188 /* ViewController.h */,
+				17B5C8E2956F5E0B5147020C /* MainStoryboard.storyboard */,
+				17B5C1665EB8605D3D99A048 /* AppDelegate.m */,
+				17B5C71B58D76F3B96828E71 /* AppDelegate.h */,
+				17B5C175FA031AC1009C05F2 /* Supporting Files */,
+			);
+			path = NaviTintColorChecker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B5CDC64169F4421731DDBC /* NaviTintColorChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C80E20CF3ABC791DB416 /* Build configuration list for PBXNativeTarget "NaviTintColorChecker" */;
+			buildPhases = (
+				17B5C16EC597041058206AA2 /* Sources */,
+				17B5CA6DACFECE590363CD60 /* Frameworks */,
+				17B5C55E17729843817A8283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaviTintColorChecker;
+			productName = NaviTintColorChecker;
+			productReference = 17B5CDF7296AEBF2CDFB2FE7 /* NaviTintColorChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B5CE938C1F05562F7BA6D5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 17B5C2438914342D02749AD8 /* Build configuration list for PBXProject "NaviTintColorChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B5C04E983AD785FC0B7CC0;
+			productRefGroup = 17B5C32C2FE36CC1A1D546C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B5CDC64169F4421731DDBC /* NaviTintColorChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B5C55E17729843817A8283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CD34C94C4F7811BDA93D /* InfoPlist.strings in Resources */,
+				17B5C1A1F00A3B759AF968F0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B5C16EC597041058206AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C63D8CD8DA61397B8DFA /* main.m in Sources */,
+				17B5CF0256D98DE1A1AD5108 /* AppDelegate.m in Sources */,
+				17B5CB6CE98AFF1BAD37495C /* ViewController.m in Sources */,
+				17B5CF71EA8E32F17D18F133 /* UIColor+hex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17B5C7B0A4D5183AD591698C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C7C240F205F94EBDA57B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17B5C8E2956F5E0B5147020C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C122752B8E1C157DB171 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B5C06B48FEF1B6E1F5FC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NaviTintColorChecker/NaviTintColorChecker-Prefix.pch";
+				INFOPLIST_FILE = "NaviTintColorChecker/NaviTintColorChecker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17B5C4F2BE5601A5ABFDF4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B5C711AEB62701C0A3CDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17B5CE37F1A9EDDB4D385398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: PLUS R, K.K.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NaviTintColorChecker/NaviTintColorChecker-Prefix.pch";
+				INFOPLIST_FILE = "NaviTintColorChecker/NaviTintColorChecker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "10B338AB-6391-4A24-8F62-3AF796C78B00";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B5C2438914342D02749AD8 /* Build configuration list for PBXProject "NaviTintColorChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C4F2BE5601A5ABFDF4A3 /* Release */,
+				17B5C711AEB62701C0A3CDBF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5C80E20CF3ABC791DB416 /* Build configuration list for PBXNativeTarget "NaviTintColorChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5CE37F1A9EDDB4D385398 /* Release */,
+				17B5C06B48FEF1B6E1F5FC17 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B5CE938C1F05562F7BA6D5 /* Project object */;
+}
